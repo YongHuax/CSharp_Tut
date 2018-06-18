@@ -1,0 +1,36 @@
+// Math Func
+
+using System;
+
+namespace ConsoleAppsbasic
+{
+    class Project
+    {
+        public static void Main(string[] args) // string[] = accept CLI arg for ezer pgrm changes ; args is reminder for aforementioned , can be excluded 
+        {
+            int x = 4;
+            var y = 2;// should use explicit 
+
+            // Mathematical Function 
+
+            int xPlusY = x + y;
+
+            int xMinusY = x - y;
+
+            int xMultipledByY = x * y;
+
+            int xDividedByY = x / y;
+
+            // Print Function 
+
+            Console.WriteLine("xPlusY is " + xPlusY);
+
+            Console.WriteLine("xMinusY is " + xMinusY);
+
+            Console.WriteLine("xMultipledByY is " + xMultipledByY);
+
+            Console.WriteLine("xDividedByY is " + xDividedByY);
+
+            Console.ReadKey(); // Stop Console Termination 
+        }
+    }
