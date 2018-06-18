@@ -1,0 +1,24 @@
+//Q. ( Var | Explicit ) Write  a program uses weak-type(var) instead of strong type(string, int )
+
+//Import System Functions
+using System;
+
+// Project Name
+namespace ConsoleAppbasic
+{
+    // File Name
+    class Program
+    {
+         // Main Method 
+        static void Main(string[] args) // sting[] is for accepting string arguments from console , args is reminder for prev,  not needed 
+        {
+            var number = 42;
+            Console.WriteLine(number);// Writeline carries delimiter 
+            Console.ReadKey(); // Stop Console from auto-close , wait for any keypress instead 
+            
+        }
+    }
+}
+
+
+//O/P : 42 ,  Console dosent autoclose 
