@@ -1,0 +1,22 @@
+//Using Keyword Var 
+//Q. 1. Does the var assigned code works ? 2. Which Line contains error ? 3. if not why ? 
+
+using System;
+
+namespace ConsoleAppsbasic
+{
+    class Project
+    {
+        public static void Main(string[] args) // string[] = accept CLI arg for ezer pgrm changes ; args is reminder for aforementioned , can be excluded 
+        {
+            var number; // implicity cast var number 
+            number = 42; //  assign var number value of 42 
+
+            Console.ReadLine(number);        
+        }
+    }
+}
+
+
+
+//O/P 1. No 2. Error at line 11 3. implicitly casted var must be assigned var at same line 
