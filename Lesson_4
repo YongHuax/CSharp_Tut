@@ -1,4 +1,5 @@
-//Q. ( Var | Explicit ) Write  a program uses weak-type(var) instead of strong type(string, int )
+//Tp. Var | Explicit
+//Q. Write  a program uses weak-type(var) instead of strong type(string, int )
 
 //Import System Functions
 using System;
