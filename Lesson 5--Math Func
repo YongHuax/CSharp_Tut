@@ -21,6 +21,10 @@ namespace ConsoleAppsbasic
 
             int xDividedByY = x / y;
 
+            int xDividedByYRemainder = x % y;
+
+           // int xtoPowerofY = x^y; Dosent work
+
             // Print Function 
 
             Console.WriteLine("xPlusY is " + xPlusY);
@@ -31,6 +35,13 @@ namespace ConsoleAppsbasic
 
             Console.WriteLine("xDividedByY is " + xDividedByY);
 
+            Console.WriteLine("xDividedByYRemainder is " + xDividedByYRemainder);
+
+            // Console.WriteLine("xtoPowerofY is " + xtoPowerofY); dosent work x.x
+
             Console.ReadKey(); // Stop Console Termination 
         }
     }
+}
+
+
