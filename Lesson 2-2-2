@@ -1,0 +1,26 @@
+//Q. Create a CS program that Prints 2 variables in order in a proper sentence USING string interpolation 
+//Q. Why is String Interpolation better than Traditional placeholder variable placement ? 
+
+using System;
+
+namespace ConsoleAppbasic
+{
+    class Program
+    {
+
+       
+
+        static void Main(string[] args)
+        {
+            int x = 4;
+            int y = 8;
+
+            Console.WriteLine($"The value of  x is {x} and the value of y is  {y}");
+            Console.ReadLine();
+        }
+    }
+}
+
+
+//Op . The value of  x is 4 and the value of y is  8
+//A. More intuitive , More neat 
