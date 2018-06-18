@@ -1,0 +1,28 @@
+//Q. ( UserInput + Convert ) Write a c# program that requests a input in integer 
+
+using System;
+
+namespace ConsoleAppbasic
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string question = " what is your age ";
+            Console.WriteLine(question);
+
+
+            string userInput = Console.ReadLine();//Read As string
+
+            int intUserInput = Convert.ToInt32(userInput);//Convert to Integer
+
+            Console.WriteLine("Your Age is " + intUserInput);
+
+            Console.ReadKey();// Prevent Console Autoshutdown
+        }
+    }
+}
+
+
+
+//O/P. E.g. Input = 55 ; 1.  what is your age 2. 55 3. Your Age is 55
