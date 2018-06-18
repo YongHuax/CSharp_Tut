@@ -1,4 +1,5 @@
-# HelloWorld
-Github Tutorial Practice xD
+# CSharp_Tut
 
-Im have little friends Q.Q
+Learning CSharp on SoloLearn.com Website 
+
+Purpose : Job Usage for RPA
