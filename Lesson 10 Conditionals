@@ -1,0 +1,37 @@
+/* Question : Convert code snippet to using ? 
+ 
+ if (y < 100) { x = "dog"; } 
+else if (y < 150) { x = "cat"; }
+else if (y < 300) { x = "bar"; } 
+else              { x = "baz"; }
+
+
+*/ 
+
+// Question 2 : what is 1  advantage of using ? 
+
+// Question 3 : what is 1 disadvantage of using ?  
+
+//Q4 : what is ?  the functional equivilant of? 
+
+
+
+
+
+
+
+
+x = ( y < 100 ) "dog" :
+    ( y < 150 ) "cat" : 
+    ( y < 300 ) "bar" : 
+     "baz" ;
+     
+     
+     //Answer 2 : makes multiple if else statements more readable 
+     
+     //Answer 3 : diffcult to test ,  need to isolate code and slot in variables 
+     
+    // A4 : if else if :D
+    
+    
+   Good Read : https://stackoverflow.com/questions/160218/to-ternary-or-not-to-ternary
